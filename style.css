@@ -62,7 +62,7 @@ input#switch {
   transform: translateY(-50%) rotate(20deg);
 }
 #switch:checked ~ .head .blades {
-  animation: spin 1s linear infinite;
+  animation: spin .1s linear infinite;
 }
 
 .head {
@@ -83,7 +83,7 @@ input#switch {
   height: 100%;
   width: 100%;
   z-index: 2;
-  animation: spinDown 1s ease-out forwards;
+  animation: spinDown .1s ease-out forwards;
 }
 
 @keyframes spin {
